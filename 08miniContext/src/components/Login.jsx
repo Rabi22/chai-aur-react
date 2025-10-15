@@ -7,6 +7,7 @@ function Login() {
 
     const {setUser} = useContext(UserContext)
 
+    //handle submit button
     const handleSubmit = (e) => {
         e.preventDefault()
         setUser({username, password})
